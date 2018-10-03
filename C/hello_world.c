@@ -7,6 +7,11 @@
 // ./hello_world
 int main(void)
 {
-    printf("Hello World!\n");
-    return 0;
+    int a;
+	scanf("%d",&a);
+	if(a==1)
+	printf("HELLO WORLD!!!!!\n");
+    else
+    printf("wrong entry");
+	return 0;
 }
